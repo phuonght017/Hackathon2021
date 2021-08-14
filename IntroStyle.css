@@ -1,0 +1,95 @@
+#mainNavbar .navbar-brand {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2px;
+    text-transform: uppercase;
+    margin-left: 22px;
+    color: #1EA59F;
+}
+
+#mainNavbar .navbar-nav {
+   margin-left: auto;
+}
+
+#mainNavbar .nav-item {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+    color: #373F41;
+    padding-right: 20px;
+}
+
+#mainNavbar.nav-icon {
+    padding-right: 0px;
+}
+
+#mainNavbar .nav-item .active {
+    color: #1EA59F;
+}
+
+*{
+    font-family: Mulish;    
+
+}
+header{
+    background-color: #cccccc;
+    min-height: 70px;
+    padding: 15px;
+}
+main{
+    background-color: #dddddd;
+    min-height: 300px;
+    padding: 7.5px 15px;
+}
+footer{
+    background-color: #cccccc;
+    min-height: 70px;
+    padding: 15px;
+}
+h1{
+    font-family: Mulish;
+    font-style: bold;
+    height:200px;
+    line-height: 200px;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+
+    color: #000000;
+}
+h3{
+    color: #000000;
+    height: 30px;
+    margin-bottom: 60px;
+}
+.description{
+    font-family: Mulish;
+    height:20px;
+    display: flex;
+    align-items: center;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+
+    color: #000000;
+}
+.btn-box{
+    text-align: left;
+    margin-top: 30px;
+}
+.btn-box button{
+    padding: 7.5px 15px;
+    background-color: #009999;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    border-radius:10px;
+} 
+
+.welcome{
+    align-item:center;
+}

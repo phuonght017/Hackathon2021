@@ -1,0 +1,105 @@
+#mainNavbar .navbar-brand {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2px;
+    text-transform: uppercase;
+    margin-left: 22px;
+    color: #1EA59F;
+}
+
+#mainNavbar .navbar-nav {
+   margin-left: auto;
+}
+
+#mainNavbar .nav-item {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+    color: #373F41;
+    padding-right: 20px;
+}
+
+#mainNavbar.nav-icon {
+    padding-right: 0px;
+}
+
+#mainNavbar .nav-item .active {
+    color: #1EA59F;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Mulish;    
+
+}
+header{
+    background-color: #cccccc;
+    min-height: 70px;
+    padding: 15px;
+}
+main{
+    background-color: #dddddd;
+    min-height: 300px;
+    padding: 7.5px 15px;
+}
+footer{
+    background-color: #cccccc;
+    min-height: 70px;
+    padding: 15px;
+}
+.container{
+    width: 100%;
+    max-width: 1200px;      
+
+}
+.login-form{
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius:10px;
+    }
+h1{
+    color: #000000;
+    font-size: 50px;
+    margin-bottom: 30px;
+
+}
+.Login{
+    text-align: center;
+    color: #36B5B0;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+.input-box{
+    margin-bottom: 10px;
+}
+.input-box input{
+    padding: 7.5px 15px;
+    width: 100%;
+    border: 1px solid #cccccc;
+    outline: none;
+    border-radius:10px;
+}
+.btn-box{
+    text-align: center;
+    margin-top: 30px;
+}
+.btn-box button{
+    padding: 7.5px 15px;
+    background-color: #009999;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    border-radius:10px;
+}
+  
