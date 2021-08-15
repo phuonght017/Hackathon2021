@@ -1,0 +1,456 @@
+#greeting {
+    position: relative;
+    height: 800px;
+}
+
+#greeting #title {
+    position: absolute;
+    top: 283px;
+    left: 750px;
+
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 56px;
+    /* identical to box height, or 70% */
+
+    letter-spacing: 0.2px;
+
+    color: #000000;
+}
+
+#greeting #subtitle{
+    position: absolute;
+    left: 750px;
+    width: 730px;
+    top: 400px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #000000;
+}
+
+#greeting #img{
+    position: absolute;
+    top: 50px;
+    left: 150px;
+    width: 600px;
+}
+
+#practise {
+    position: relative;
+    height: 800px;
+}
+
+#practise .practise-list{
+    position: absolute;
+    top: 155px;
+    left: 0px;
+    overflow: scroll;
+    width: 100%;
+    white-space: nowrap;
+}
+
+#practise #title{
+    position: absolute;
+    left: 150px;
+    top: 20px;
+
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 56px;
+    /* or 93% */
+
+    text-align: center;
+    letter-spacing: 0.2px;
+
+    color: #886161;
+
+}
+
+#practise .practise-area{
+    position: relative;
+    width: 400px;
+    height: 600px;
+    background-color: #D8DDDC;
+    border-radius: 70px;
+    display: inline-block;
+    margin-left: 16px;
+}
+
+#practise .description{
+    position: absolute;
+    left:60px;
+    top: 343px;
+
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+
+    color: #000000;
+}
+
+#practise .img{
+    position: absolute;
+    width: 400px;
+    height: 600px;
+    left: 0;
+    top: 0;
+}
+
+#practise .button-area{
+    position: absolute;
+    left: 60px;
+    top: 430px;
+}
+
+#practise .button-click{
+    position: relative;
+    width: 281px;
+    height: 90px;
+    background-color: #74CFCB;
+    border-radius: 70px;
+}
+
+#practise .button-click p {
+    text-align: center;
+    position: absolute;
+    left: 30.25%;
+    top: 40%;
+
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 18px;
+    /* identical to box height, or 64% */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2px;
+
+    color: #000000;
+}
+
+#morale {
+    position: relative;
+    height: 900px;
+}
+
+#morale .morale-list{
+    position: absolute;
+    top: 255px;
+    left: 0px;
+    overflow: scroll;
+    width: 100%;
+    white-space: nowrap;
+}
+
+#morale #title{
+    position: absolute;
+    left: 150px;
+    top: 120px;
+
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 56px;
+    /* or 93% */
+
+    text-align: center;
+    letter-spacing: 0.2px;
+
+    color: #886161;
+
+}
+
+#morale .morale-area{
+    position: relative;
+    width: 400px;
+    height: 600px;
+    background-color: #D8DDDC;
+    border-radius: 70px;
+    display: inline-block;
+    margin-left: 16px;
+}
+
+#morale .description{
+    position: absolute;
+    left:60px;
+    top: 343px;
+
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+
+    color: #000000;
+}
+
+#morale .img{
+    position: absolute;
+    width: 400px;
+    height: 600px;
+    left: 0;
+    top: 0;
+}
+
+#morale .button-area{
+    position: absolute;
+    left: 60px;
+    top: 430px;
+}
+
+#morale .button-click{
+    position: relative;
+    width: 281px;
+    height: 90px;
+    background-color: #74CFCB;
+    border-radius: 70px;
+}
+
+#morale .button-click p {
+    text-align: center;
+    position: absolute;
+    left: 30.25%;
+    top: 40%;
+
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 18px;
+    /* identical to box height, or 64% */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2px;
+
+    color: #000000;
+}
+
+#know {
+    position: relative;
+    height: 600px;
+}
+
+#know .know-list{
+    position: absolute;
+    top: 155px;
+    left: 0px;
+    overflow: scroll;
+    width: 100%;
+    white-space: nowrap;
+}
+
+#know #title{
+    position: absolute;
+    left: 150px;
+    top: 20px;
+
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 56px;
+    /* or 93% */
+
+    text-align: center;
+    letter-spacing: 0.2px;
+
+    color: #886161;
+
+}
+
+#know .know-area{
+    position: relative;
+    width: 600px;
+    height: 400px;
+    background-color: #D8DDDC;
+    border-radius: 70px;
+    display: inline-block;
+    margin-left: 16px;
+}
+
+#know .description{
+    position: absolute;
+    left: 212px;
+    top: 50px;
+
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+
+    color: #000000;
+
+}
+
+#know .img{
+    position: absolute;
+    width: 400px;
+    left: 90px;
+    top: 110px;
+}
+
+#know .button-area{
+    position: absolute;
+    left: 150px;
+    top: 275px;
+}
+
+#know .button-click{
+    position: relative;
+    width: 281px;
+    height: 90px;
+    background-color: #74CFCB;
+    border-radius: 70px;
+}
+
+#know .button-click p {
+    text-align: center;
+    position: absolute;
+    left: 30.25%;
+    top: 40%;
+
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 18px;
+    /* identical to box height, or 64% */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2px;
+
+    color: #000000;
+}
+
+#know2 {
+    position: relative;
+    height: 800px;
+}
+
+#know2 .know2-list{
+    position: absolute;
+    top: 160px;
+    left: 0px;
+    overflow: scroll;
+    width: 100%;
+    white-space: nowrap;
+}
+
+#know2 #title{
+    position: absolute;
+    left: 150px;
+    top: 20px;
+
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 56px;
+    /* or 93% */
+
+    text-align: center;
+    letter-spacing: 0.2px;
+
+    color: #886161;
+
+}
+
+#know2 .know2-area{
+    position: relative;
+    width: 600px;
+    height: 400px;
+    background-color: #D8DDDC;
+    border-radius: 70px;
+    display: inline-block;
+    margin-left: 16px;
+}
+
+#know2 .description{
+    position: absolute;
+    left: 132px;
+    top: 50px;
+
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+
+    color: #000000;
+
+}
+
+#know2 .img{
+    position: absolute;
+    width: 400px;
+    left: 90px;
+    top: 100px;
+}
+
+#know2 .button-area{
+    position: absolute;
+    left: 150px;
+    top: 275px;
+}
+
+#know2 .button-click{
+    position: relative;
+    width: 281px;
+    height: 90px;
+    background-color: #74CFCB;
+    border-radius: 70px;
+}
+
+#know2 .button-click p {
+    text-align: center;
+    position: absolute;
+    left: 30.25%;
+    top: 40%;
+
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 18px;
+    /* identical to box height, or 64% */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2px;
+
+    color: #000000;
+}
