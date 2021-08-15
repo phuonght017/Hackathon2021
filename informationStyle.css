@@ -5,34 +5,14 @@
 
 #greeting #title {
     position: absolute;
-    top: 283px;
+    top: 183px;
     left: 750px;
-
-    font-family: Mulish;
+    font-family: 'Oswald', sans-serif;
     font-style: normal;
     font-weight: bold;
-    font-size: 80px;
-    line-height: 56px;
-    /* identical to box height, or 70% */
-
+    font-size: 144px;
+    line-height: 216px;
     letter-spacing: 0.2px;
-
-    color: #000000;
-}
-
-#greeting #subtitle{
-    position: absolute;
-    left: 750px;
-    width: 730px;
-    top: 400px;
-    font-family: Mulish;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 30px;
-    line-height: 38px;
-    display: flex;
-    align-items: center;
-    font-feature-settings: 'tnum' on, 'lnum' on;
     color: #000000;
 }
 
