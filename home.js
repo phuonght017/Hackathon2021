@@ -180,15 +180,15 @@ function clearPage() {
 }
 
 //Get data about period 
-let newData;
-async function getData() {
-    try {
-        const res = await.get('https://apiblabla');
-        newData = res.data;
-    }
-    catch (err) {
-        allert("ERROR: Cannot get Data");
-    }
-}
+// let newData;
+// async function getData() {
+//     try {
+//         const res = await get('https://apiblabla');
+//         newData = res.data;
+//     }
+//     catch (err) {
+//         allert("ERROR: Cannot get Data");
+//     }
+// }
 //Show data on calendar // cx k can nua dau :((
 
